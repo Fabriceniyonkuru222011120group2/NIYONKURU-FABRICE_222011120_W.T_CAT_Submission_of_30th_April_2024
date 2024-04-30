@@ -1,0 +1,145 @@
+<html>
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All About System</title>
+  <style>
+    /* Normal link */
+    a {
+      padding: 10px;
+      color: white;
+      background-color: skyblue;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: brown; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: red;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+      padding: 8px;
+    }
+    section{
+      padding:100px;
+    }
+       header{
+  background-color: #F4A460;
+  padding: 20px;
+}
+footer{
+  background-color: #F4A460;
+  padding: 20px;
+}
+
+
+    /* Dropdown container */
+    .dropdown {
+      float: right; /* Align to the right */
+      margin-right: 100px; /* Adjust margin as needed */
+      position: relative;
+    }
+
+    /* Dropdown content */
+    .dropdown-contents {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Show dropdown content on hover */
+    .dropdown:hover .dropdown-contents {
+      display: block;
+    }
+  </style>
+</head>
+<body bgcolor="gray">
+
+<header>
+  
+<!-- <div class="col-3 offset">-->
+<form class="d-flex" role="search" action="search.php">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name ="query">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;">
+
+
+      <a href="./home.html">HOME</a>
+    </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./customer.php">customer</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./employee.php">employee</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./landlord.php">landlords</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./leases.php">leases</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./maintenancerequest.php">maintainancerequest</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./payment.php">payments</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./properties.php">properties</a></li>
+  
+    <li class="dropdown">
+      <a href="#" style="color: white; background-color: darkgreen; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+  </ul>
+
+
+</header>
+<section>
+
+<h2 style="color: skyblue;"><bold><u><i> OUR MISSION</i> </u></bold></h2>
+
+<p><h3 style="color: black;">
+ Our mission at RENTAL MANAGEMENT COMPANY is to redefine rental management by providing property owners with exceptional management services that maximize their property's performance and value. We are committed to delivering unparalleled customer service to our tenants, ensuring their needs are met promptly and professionally. By implementing efficient systems and processes, we streamline operations and optimize rental income for property owners. Our dedication to property maintenance and regulatory standards guarantees safe and well-maintained properties. Through community engagement initiatives, we aim to foster a sense of belonging and enhance the overall living experience for our tenants and neighbors.
+
+</h3></p><br>
+
+<h2 style="color: skyblue;"><bold><u><i> WHAT DO WE DO</i></u></bold></h2>
+
+<p><h3 style="color: black;">As a rental management company, we oversee all aspects of property management on behalf of property owners. Our services include property marketing to attract tenants, tenant screening and selection, lease negotiation and execution, rent collection, maintenance and repairs coordination, and regular property inspections. We also handle accounting and financial reporting, ensuring that property owners have a clear understanding of their property's performance. Additionally, we provide ongoing support and communication to both property owners and tenants to ensure a positive rental experience for all parties involved.
+</h3></p>
+</section>
+
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg, Designer by:FABRICE NIYONKURU @</h2></b>
+  </center>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Our Customers</title>
+</head>
+<body>
+		<h1>Customer Form</h1>
+<form method="post" action="customer.php">
+
+<label for="custid">Customer Id:</label>
+<input type="number" id="custid" name="custid" required><br><br>
+
+<label for="pid">FirstName:</label>
+<input type="number" id="fname" name="fname" required><br><br>
+
+<label for="name">Lastname:</label>
+<input type="text" id="lname" name="lname" required><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="phone">Phone Number:</label>
+<input type="text" id="phone" name="phone" required><br><br>
+
+<label for="gend">Gender:</label>
+            <select name="gend" id="gend">
+                <option>Male</option>
+                <option>Female</option>
+            </select><br><br>
+
+<input type="submit" name="add" value="Insert"><br><br>
+
+<a href="./home.html">Go Back to Home</a>
+
+</form>
+</body>
+</html>
